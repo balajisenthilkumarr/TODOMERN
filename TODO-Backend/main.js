@@ -8,6 +8,7 @@ const dbURI = process.env.DB_URL;
 mongodb
   .connect(dbURI)
   .then(() => console.log("db coonection"))
+  
   .catch((err) => console.log(err));
 
 // Middleware for JSON handling

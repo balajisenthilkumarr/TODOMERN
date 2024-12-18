@@ -27,7 +27,7 @@ function App() {
     setDescription(e.target.value);
   };
 
-  const apiurl = "http://localhost:8000";
+  const apiurl = "https://todomern-q0l7.onrender.com";
 
   //add data to the api
   function addTask() {
